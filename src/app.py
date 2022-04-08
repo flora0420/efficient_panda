@@ -140,7 +140,7 @@ def main():
 
     st.subheader("Conclusion")
 
-    st.image('images/runtime.png')
+    st.image('../images/runtime.png')
     st.write("Image credit to: [@Maxime Labonne](https://medium.com/@mlabonne)")
 
 main()
