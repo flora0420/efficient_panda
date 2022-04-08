@@ -135,7 +135,7 @@ def main():
     
     with st.expander("See the results in a plot"):
         fig = plot_results(df_results, title='Time to iterate over rows in a dataframe')
-        st.pyplot(fig, use_container_width=True)
+        st.pyplot(fig)
 
 
     st.subheader("Conclusion")
