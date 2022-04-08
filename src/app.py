@@ -137,10 +137,8 @@ def main():
         fig = plot_results(df_results, title='Time to iterate over rows in a dataframe')
         st.pyplot(fig)
 
-
     st.subheader("Conclusion")
-
-    st.image('../images/runtime.png')
+    st.image('src/imgs/runtime.png')
     st.write("Image credit to: [@Maxime Labonne](https://medium.com/@mlabonne)")
 
 main()
